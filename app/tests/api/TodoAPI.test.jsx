@@ -52,18 +52,18 @@ describe('TodoAPI', () => {
     });
   });
 
-  describe('filteredTodos', () => {
+  describe('filterTodos', () => {
     var todos = [{
       id: 1,
       text: 'Some text here',
       completed: true
     }, {
       id: 3,
-      text: 'other text here',
+      text: 'Other text here',
       completed: false
     }, {
       id: 3,
-      text: 'some text here',
+      text: 'Some text here',
       completed: true
     }];
     it('should return all items if showCompleted is true', () => {
